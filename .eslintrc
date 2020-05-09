@@ -9,7 +9,23 @@
     "semi": "off",
     "arrow-parens": "off",
     "comma-dangle": "off",
-    "require-jsdoc": "off"
+    "require-jsdoc": "off",
+    "linebreak-style": [
+      "error",
+      "windows"
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "operator-linebreak": "off"
   },
-  "extends": ["eslint:recomended", "google"]
+  "extends": [
+    "eslint:recommended",
+    "google"
+  ]
 }
